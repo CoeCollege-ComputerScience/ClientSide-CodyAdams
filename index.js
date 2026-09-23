@@ -4,3 +4,64 @@
 // • Represent and manipulate data in the web ecosystem
 // • Organize and style a display
 // • Integrate interactive functionality to allow client-side user interactions
+
+const campusEvents = [
+    {
+        id: 1,
+        name: 'Chess Club',
+        organization: 'Coe',
+        time: 19.00,
+        cost: 0.00
+    },
+    {
+        id: 2,
+        name: 'Play',
+        organization: 'Coe',
+        time: 20.00,
+        cost: 20.00
+    },
+    {
+        id: 3,
+        name: 'Band',
+        organization: 'Kennedy',
+        time: 9.30,
+        cost: 15.00
+    },
+    {
+        id: 4,
+        name: 'Market After Dark',
+        organization: 'Cedar Rapids',
+        time: 21.00,
+        cost: 0.00
+    }
+]
+
+const eventsBody = document.querySelector('#eventBody');
+
+const displayEvents = (eventsArray) => {
+    // Clear old information first
+    eventsBody.innerHTML = "";
+
+    // Go through every glaze
+    eventsArray.map(campusEvent => {
+
+        // Create a section
+        const event = document.createElement("tr");
+
+        // Put information inside it
+        event.innerHTML += `<td>${campusEvent.id}</td`;
+        event.innerHTML += `<td>${campusEvent.name}</td>`;
+        event.innerHTML += `<td>${campusEvent.organization}</td>`;
+        event.innerHTML += `<td>${campusEvent.time}</td>`;
+        event.innerHTML += `<td>${campusEvent.cost}</td>`;
+
+        // Add it to the webpage
+        eventsBody.appendChild(event);
+    });
+}
+
+const updateEvents = () => {
+    displayEvents(campusEvents);
+}
+
+updateEvents();
