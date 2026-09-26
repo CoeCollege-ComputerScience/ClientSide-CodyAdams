@@ -81,23 +81,18 @@ const campusEvents = [
 const eventsBody = document.querySelector('#eventBody');
 
 const displayEvents = (eventsArray) => {
-    // Clear old information first
     eventsBody.innerHTML = "";
 
-    // Go through every glaze
     eventsArray.map(campusEvent => {
 
-        // Create a section
         const event = document.createElement("tr");
 
-        // Put information inside it
         event.innerHTML += `<td>${campusEvent.id}</td`;
         event.innerHTML += `<td>${campusEvent.name}</td>`;
         event.innerHTML += `<td>${campusEvent.organization}</td>`;
         event.innerHTML += `<td>${campusEvent.time}</td>`;
         event.innerHTML += `<td>${campusEvent.cost}</td>`;
 
-        // Add it to the webpage
         eventsBody.appendChild(event);
     });
 }
