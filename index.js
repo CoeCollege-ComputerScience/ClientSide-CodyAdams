@@ -9,21 +9,21 @@ const campusEvents = [
     {
         id: 1,
         name: 'Chess Club',
-        organization: 'Coe',
+        organization: 'Coe Clubs',
         time: 19.00,
         cost: 0.00
     },
     {
         id: 2,
         name: 'Play',
-        organization: 'Coe',
+        organization: 'Coe Clubs',
         time: 20.00,
         cost: 20.00
     },
     {
         id: 3,
         name: 'Band',
-        organization: 'Kennedy',
+        organization: 'Kennedy High School',
         time: 9.30,
         cost: 15.00
     },
@@ -44,7 +44,7 @@ const campusEvents = [
     {
         id: 6,
         name: 'Computer Science SI',
-        organization: 'CS Department',
+        organization: 'Coe Academics',
         time: 17,
         cost: 0.00
     },
@@ -58,7 +58,7 @@ const campusEvents = [
     {
         id: 8,
         name: 'Early Bird Breakfast',
-        organization: 'Coe',
+        organization: 'Coe Administration',
         time: 5,
         cost: 15.0
     },
@@ -72,7 +72,7 @@ const campusEvents = [
     {
         id: 10,
         name: 'Yoga',
-        organization: 'Coe',
+        organization: 'Coe Academics',
         time: 15,
         cost: 0
     }
