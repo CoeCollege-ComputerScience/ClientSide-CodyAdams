@@ -1,0 +1,11 @@
+ID, Name, Organization, Time, Cost
+
+The ID is considered a part of the table as it's considered index.
+
+The Name of the event is so it can be descriptive in a way of having a placeholder there.
+
+The Organization is planned on using to filter by different organization.
+
+The Time is going to be used for filtering by range.
+
+The Cost is the same as time its is going to be a range.

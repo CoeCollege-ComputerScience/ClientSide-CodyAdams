@@ -18,19 +18,22 @@ h1 {
 }
 
 th {
-    background-color: darkgray;
+    color: white;
+    background-color: #880011;
     padding: 12px;
 }
 
 td {
     padding: 8px;
-    border: 1px solid black;
+    border: 1px solid #880011;
 }
 
 tr:nth-child(even) {
-    background-color: lightgray;
+    color: white;
+    background-color: #880011;
 }
 
 tr:hover {
-    background-color: lightblue;
+    background-color: #D3902F;
+    color: white;
 }

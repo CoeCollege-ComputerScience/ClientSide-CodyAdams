@@ -32,7 +32,49 @@ const campusEvents = [
         name: 'Market After Dark',
         organization: 'Cedar Rapids',
         time: 21.00,
+        cost: 5.00
+    },
+    {
+        id: 5,
+        name: 'Football game',
+        organization: 'Coe Athletics',
+        time: 13.00,
+        cost: 50.00
+    },
+    {
+        id: 6,
+        name: 'Computer Science SI',
+        organization: 'CS Department',
+        time: 17,
         cost: 0.00
+    },
+    {
+        id: 7,
+        name: 'CyHawk Game',
+        organization: 'UofI Athletics',
+        time: 10,
+        cost: 100
+    },
+    {
+        id: 8,
+        name: 'Early Bird Breakfast',
+        organization: 'Coe',
+        time: 5,
+        cost: 15.0
+    },
+    {
+        id: 9,
+        name: 'Soccer Watch Party',
+        organization: 'Coe Athletics',
+        time: 18,
+        cost: 10.0
+    },
+    {
+        id: 10,
+        name: 'Yoga',
+        organization: 'Coe',
+        time: 15,
+        cost: 0
     }
 ]
 
